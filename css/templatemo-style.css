@@ -427,7 +427,8 @@ p {
 }
 
 .fourth-content {
-  padding: 15px 30px;
+	padding: 30px;
+	text-align: center;
 }
 
 .fourth-content .project-item {
