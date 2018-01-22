@@ -439,6 +439,11 @@ p {
   overflow: hidden;
 }
 
+.fourth-content .social-icons {
+  margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 
 /*
 =======================
@@ -713,12 +718,6 @@ footer a {
     margin-left: 30px;
     margin-bottom: 30px;
   }
-
-  .fivth-content .left-info .social-icons {
-    margin-top: 30px;
-    margin-bottom: 60px;
-  }
-
 }
 
 
