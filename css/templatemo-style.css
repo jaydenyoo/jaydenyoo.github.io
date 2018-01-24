@@ -430,7 +430,7 @@ p {
 	padding: 30px;
 	text-align: center;
 }
-.FOURTH-content h3 {
+.fourth-content h3 {
   font-size: 19px;
   color: #121212;
   /* text-transform: uppercase; */
@@ -438,20 +438,42 @@ p {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.fourth-content .project-item {
-  margin: 15px 0px;
-}
-
-.fourth-content img {
-  width: 100%;
-  overflow: hidden;
-}
-
-.fourth-content .social-icons {
-	font-weight: 500;
-  margin-top: 30px;
+.fourth-slide .right-about-text {
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
 	margin-bottom: 30px;
 }
+
+.fourth-slide .right-about-text h4 {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.fourth-slide .left-about-text {
+  text-align: left;
+  margin-left: 30px;
+	margin-bottom: 30px;
+  /* margin-left: 30px; */
+}
+
+.fourth-slide .left-about-text h4 {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
 
 
 /*
