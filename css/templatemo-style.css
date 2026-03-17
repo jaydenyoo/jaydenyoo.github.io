@@ -1,6 +1,6 @@
 /*
   Jayden Yoo — Personal Website
-  Redesigned: Clean, minimal, AI-startup aesthetic
+  Redesigned: Clean, minimal, AI-startup aesthetic (light theme)
 */
 
 /* ===================================
@@ -17,8 +17,8 @@ html {
 
 body {
   font-family: 'Inter', 'Montserrat', sans-serif;
-  background-color: #08080f;
-  color: #e2e8f0;
+  background-color: #f8fafc;
+  color: #0f172a;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -26,13 +26,13 @@ body {
 }
 
 a {
-  color: #818cf8;
+  color: #4f46e5;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #a5b4fc;
+  color: #4338ca;
 }
 
 /* ===================================
@@ -47,16 +47,16 @@ a:hover {
   height: 100%;
   z-index: -1;
   background:
-    radial-gradient(ellipse at 15% 40%, rgba(99, 102, 241, 0.07) 0%, transparent 55%),
-    radial-gradient(ellipse at 85% 15%, rgba(139, 92, 246, 0.05) 0%, transparent 45%),
-    #08080f;
+    radial-gradient(ellipse at 15% 40%, rgba(99, 102, 241, 0.06) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 15%, rgba(139, 92, 246, 0.04) 0%, transparent 45%),
+    #f8fafc;
 }
 
 .top-part::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.07) 1px, transparent 1px);
   background-size: 36px 36px;
 }
 
@@ -77,10 +77,10 @@ a:hover {
   right: 0;
   z-index: 100;
   height: 64px;
-  background: rgba(8, 8, 15, 0.85);
+  background: rgba(248, 250, 252, 0.88);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   display: flex;
   align-items: center;
 }
@@ -99,7 +99,7 @@ a:hover {
   font-size: 18px;
   font-weight: 800;
   letter-spacing: -0.5px;
-  color: #f1f5f9;
+  color: #0f172a;
   user-select: none;
 }
 
@@ -144,13 +144,13 @@ a:hover {
 }
 
 .cd-slider-nav ul li a:hover {
-  color: #cbd5e1;
-  background: rgba(255, 255, 255, 0.05);
+  color: #1e293b;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .cd-slider-nav ul li.selected a {
-  color: #818cf8;
-  background: rgba(99, 102, 241, 0.1);
+  color: #4f46e5;
+  background: rgba(99, 102, 241, 0.08);
 }
 
 /* ===================================
@@ -220,10 +220,10 @@ a:hover {
 .hero-badge {
   display: inline-block;
   padding: 6px 18px;
-  background: rgba(99, 102, 241, 0.1);
-  border: 1px solid rgba(99, 102, 241, 0.25);
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.2);
   border-radius: 100px;
-  color: #818cf8;
+  color: #4f46e5;
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -235,7 +235,7 @@ a:hover {
   font-weight: 800;
   line-height: 1.05;
   margin: 0 0 28px;
-  background: linear-gradient(135deg, #f1f5f9 0%, #94a3b8 100%);
+  background: linear-gradient(135deg, #0f172a 0%, #475569 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -244,7 +244,7 @@ a:hover {
 
 .hero-tagline {
   font-size: 20px;
-  color: #475569;
+  color: #64748b;
   font-weight: 400;
   line-height: 1.65;
   margin-bottom: 44px;
@@ -284,14 +284,14 @@ a:hover {
 }
 
 .hero-link--secondary {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #cbd5e1;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  color: #334155;
 }
 
 .hero-link--secondary:hover {
-  background: rgba(255, 255, 255, 0.09);
-  color: #f1f5f9;
+  background: #f1f5f9;
+  color: #0f172a;
   transform: translateY(-2px);
 }
 
@@ -313,13 +313,13 @@ a:hover {
 .slide-header h2 {
   font-size: 40px;
   font-weight: 700;
-  color: #f1f5f9;
+  color: #0f172a;
   letter-spacing: -1.5px;
   margin: 0 0 12px;
 }
 
 .slide-subtitle {
-  color: #475569;
+  color: #64748b;
   font-size: 17px;
   margin: 0;
   font-weight: 400;
@@ -330,8 +330,8 @@ a:hover {
    =================================== */
 
 .about-card {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: #fff;
+  border: 1px solid #e2e8f0;
   border-radius: 16px;
   padding: 28px 28px 8px;
   margin-bottom: 24px;
@@ -343,14 +343,14 @@ a:hover {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  color: #6366f1;
+  color: #4f46e5;
   margin-bottom: 24px;
 }
 
 .about-item {
   margin-bottom: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid #f1f5f9;
 }
 
 .about-item:last-child {
@@ -362,27 +362,27 @@ a:hover {
 .about-item h4 {
   font-size: 15px;
   font-weight: 600;
-  color: #e2e8f0;
+  color: #0f172a;
   margin: 0 0 6px;
   line-height: 1.4;
 }
 
 .about-item .at {
-  color: #475569;
+  color: #94a3b8;
   font-weight: 400;
 }
 
 .about-item a {
-  color: #818cf8;
+  color: #4f46e5;
   text-decoration: none;
 }
 
 .about-item a:hover {
-  color: #a5b4fc;
+  color: #4338ca;
 }
 
 .about-role {
-  color: #475569;
+  color: #64748b;
   font-size: 13px;
   margin: 0 0 10px;
 }
@@ -405,16 +405,16 @@ a:hover {
   content: '–';
   position: absolute;
   left: 0;
-  color: #334155;
+  color: #cbd5e1;
 }
 
 .about-details a {
-  color: #818cf8;
+  color: #4f46e5;
   text-decoration: none;
 }
 
 .about-details a:hover {
-  color: #a5b4fc;
+  color: #4338ca;
 }
 
 /* ===================================
@@ -433,10 +433,10 @@ a:hover {
   align-items: center;
   gap: 8px;
   padding: 6px 18px;
-  background: rgba(99, 102, 241, 0.1);
-  border: 1px solid rgba(99, 102, 241, 0.25);
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.2);
   border-radius: 100px;
-  color: #818cf8;
+  color: #4f46e5;
   font-size: 13px;
   font-weight: 500;
   margin-bottom: 28px;
@@ -445,13 +445,13 @@ a:hover {
 .coming-soon-title {
   font-size: 30px;
   font-weight: 700;
-  color: #f1f5f9;
+  color: #0f172a;
   margin-bottom: 16px;
   letter-spacing: -0.5px;
 }
 
 .coming-soon-desc {
-  color: #475569;
+  color: #64748b;
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 52px;
@@ -468,18 +468,18 @@ a:hover {
 }
 
 .product-card {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: #fff;
+  border: 1px solid #e2e8f0;
   border-radius: 16px;
   padding: 32px 24px;
   width: 230px;
   text-align: center;
-  transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .product-card:hover {
-  border-color: rgba(99, 102, 241, 0.3);
-  background: rgba(99, 102, 241, 0.04);
+  border-color: #c7d2fe;
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.1);
   transform: translateY(-5px);
 }
 
@@ -502,13 +502,13 @@ a:hover {
 .product-card h4 {
   font-size: 17px;
   font-weight: 600;
-  color: #e2e8f0;
+  color: #0f172a;
   margin: 0 0 10px;
 }
 
 .product-card p {
   font-size: 13px;
-  color: #475569;
+  color: #64748b;
   line-height: 1.65;
   margin-bottom: 18px;
 }
@@ -516,10 +516,10 @@ a:hover {
 .product-tag {
   display: inline-block;
   padding: 4px 12px;
-  background: rgba(99, 102, 241, 0.08);
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  background: rgba(99, 102, 241, 0.07);
+  border: 1px solid rgba(99, 102, 241, 0.18);
   border-radius: 100px;
-  color: #818cf8;
+  color: #4f46e5;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -546,13 +546,13 @@ a:hover {
 .contact-content h3 {
   font-size: 30px;
   font-weight: 700;
-  color: #f1f5f9;
+  color: #0f172a;
   margin-bottom: 16px;
   letter-spacing: -0.5px;
 }
 
 .contact-content p {
-  color: #475569;
+  color: #64748b;
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 44px;
@@ -570,11 +570,11 @@ a:hover {
   align-items: center;
   gap: 10px;
   padding: 14px 24px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #fff;
+  border: 1px solid #e2e8f0;
   border-radius: 12px;
   text-decoration: none;
-  color: #94a3b8;
+  color: #334155;
   font-size: 14px;
   font-weight: 500;
   transition: all 0.2s ease;
@@ -585,9 +585,9 @@ a:hover {
 }
 
 .contact-link:hover {
-  color: #e2e8f0;
-  border-color: rgba(99, 102, 241, 0.3);
-  background: rgba(99, 102, 241, 0.06);
+  color: #4f46e5;
+  border-color: #c7d2fe;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.1);
   transform: translateY(-3px);
 }
 
@@ -598,21 +598,21 @@ a:hover {
 footer {
   position: relative;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.4);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: #fff;
+  border-top: 1px solid #e2e8f0;
   text-align: center;
   padding: 20px 24px;
 }
 
 footer p {
   font-size: 13px;
-  color: #334155;
+  color: #94a3b8;
   margin: 0;
   font-weight: 400;
 }
 
 footer a {
-  color: #6366f1;
+  color: #4f46e5;
 }
 
 /* ===================================
