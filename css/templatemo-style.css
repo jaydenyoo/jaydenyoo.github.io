@@ -329,6 +329,11 @@ a:hover {
    ABOUT SLIDE
    =================================== */
 
+.about-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
 .about-card {
   background: #fff;
   border: 1px solid #e2e8f0;
