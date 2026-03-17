@@ -340,7 +340,8 @@ a:hover {
   border-radius: 16px;
   padding: 28px 28px 8px;
   margin-bottom: 24px;
-  height: 100%;
+  overflow: hidden;
+  width: 100%;
 }
 
 .about-card-label {
@@ -357,10 +358,14 @@ a:hover {
   align-items: center;
   gap: 12px;
   margin-bottom: 8px;
+  min-width: 0;
 }
 
 .about-item-header h4 {
   margin: 0;
+  min-width: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .org-logo {
@@ -393,6 +398,8 @@ a:hover {
   margin-bottom: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #f1f5f9;
+  width: 100%;
+  min-width: 0;
 }
 
 .about-item:last-child {
@@ -441,6 +448,8 @@ a:hover {
   line-height: 1.65;
   padding: 3px 0 3px 18px;
   position: relative;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .about-details li::before {
