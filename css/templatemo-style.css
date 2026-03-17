@@ -352,6 +352,43 @@ a:hover {
   margin-bottom: 24px;
 }
 
+.about-item-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.about-item-header h4 {
+  margin: 0;
+}
+
+.org-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  object-fit: contain;
+  background: #fff;
+  flex-shrink: 0;
+  padding: 2px;
+}
+
+.org-logo-fallback {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #f1f5f9;
+  color: #4f46e5;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 .about-item {
   margin-bottom: 24px;
   padding-bottom: 24px;
