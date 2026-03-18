@@ -180,6 +180,7 @@ a:hover {
 
 .cd-hero-slider li.selected {
   position: relative;
+  overflow-y: auto; /* allow vertical scroll for tall content (e.g. About) */
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
