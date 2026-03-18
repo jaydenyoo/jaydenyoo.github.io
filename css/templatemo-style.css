@@ -165,7 +165,7 @@ a:hover {
   overflow: hidden;
 }
 
-.cd-hero-slider li {
+.cd-hero-slider > li {
   position: absolute;
   top: 0;
   left: 0;
@@ -178,7 +178,7 @@ a:hover {
   transform: translateX(100%);
 }
 
-.cd-hero-slider li.selected {
+.cd-hero-slider > li.selected {
   position: relative;
   overflow-y: auto; /* allow vertical scroll for tall content (e.g. About) */
   -webkit-transform: translateX(0);
@@ -187,15 +187,15 @@ a:hover {
   transform: translateX(0);
 }
 
-.cd-hero-slider li.move-left {
+.cd-hero-slider > li.move-left {
   -webkit-transform: translateX(-100%);
   -moz-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
 }
 
-.cd-hero-slider li.is-moving,
-.cd-hero-slider li.selected {
+.cd-hero-slider > li.is-moving,
+.cd-hero-slider > li.selected {
   -webkit-transition: -webkit-transform 0.5s ease;
   -moz-transition: -moz-transform 0.5s ease;
   transition: transform 0.5s ease;
